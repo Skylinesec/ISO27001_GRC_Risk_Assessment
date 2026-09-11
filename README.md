@@ -5,7 +5,7 @@
 
 This project demonstrates a practical, junior-level understanding of Governance, Risk and Compliance (GRC) principles within an information security environment.
 
-The assessment is based on a **SIMULATE** German cloud-based financial services company, **FinSecure Cloud GmbH**.
+The assessment is based on a **SIMULATED** German cloud-based financial services company, **FinSecure Cloud GmbH**.
 
 The project applies concepts from:
 
@@ -15,7 +15,9 @@ The project applies concepts from:
 * BSI Cloud Computing Compliance Criteria Catalogue (C5)
 * Risk assessment and risk treatment principles
 
-The objective is not to perform a formal ISO 27001 audit or certification assessment. Instead, this project demonstrates **how a junior security professional can identify information-security risks, assess their potential impact, select appropriate treatments, and map security measures to relevant controls.**
+The objective is not to perform a formal ISO 27001 audit or certification assessment. Instead, this project demonstrates:
+
+**✨how a junior security professional can identify information-security risks, assess their potential impact, select appropriate treatments, and map security measures to relevant controls.✨**
 
 ---
 
@@ -61,9 +63,9 @@ The objectives of this assessment are to:
 
 ---
 
-## GRC Concepts Demonstrated
+## GRC Concepts
 
-### Governance
+### Governance (G)
 
 Governance establishes the policies, responsibilities, processes, and decision-making structures used to manage information security.
 
@@ -75,19 +77,19 @@ Examples include:
 * Incident-response procedures
 * Security-awareness requirements
 
-### Risk
+### Risk (R)
 
 Risk management identifies events that could negatively affect information or systems and evaluates their likelihood and potential impact.
 
-This project uses a simplified risk-rating approach based on:
+This project uses a simplified risk-rating approach based on this formula:
 
 **Risk = Likelihood × Impact**
 
-### Compliance
+### Compliance (C)
 
 Compliance involves meeting applicable legal, regulatory, contractual, and organizational requirements.
 
-This project considers:
+This project considers 3:
 
 * ISO/IEC 27001:2022
 * GDPR
@@ -125,41 +127,10 @@ This mirrors the basic reasoning used in real-world information-security risk ma
 
 ---
 
-## Project Structure
-
-```text
-ISO27001_GRC_Risk_Assessment/
-│
-├── README.md
-│
-├── 01_Scope_and_Context/
-│   └── scope.md
-│
-├── 02_Asset_Inventory/
-│   └── asset_inventory.md
-│
-├── 03_Risk_Assessment/
-│   └── risk_register.md
-│
-├── 04_Risk_Treatment/
-│   └── risk_treatment_plan.md
-│
-├── 05_ISO27001_Control_Mapping/
-│   └── control_mapping.md
-│
-├── 06_Statement_of_Applicability/
-│   └── soa.md
-│
-└── 07_Evidence/
-    └── evidence_examples.md
-```
-
----
-
 ## Disclaimer
 
 This is an educational cybersecurity portfolio project using a fictional organization and simulated information.
 
 It is intended to demonstrate practical familiarity with GRC, information-security risk management, and ISO/IEC 27001 concepts.
 
-It does not represent an official ISO 27001 audit, certification assessment, legal GDPR assessment, or C5 attestation.
+**⛔️It does not represent an official ISO 27001 audit, certification assessment, legal GDPR assessment, or C5 attestation.⛔️**
