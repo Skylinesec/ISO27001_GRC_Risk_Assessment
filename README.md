@@ -65,7 +65,7 @@ The objectives of this assessment are to:
 
 ## GRC Concepts
 
-### Governance (G)
+### 1️⃣ Governance (G)
 
 Governance establishes the policies, responsibilities, processes, and decision-making structures used to manage information security.
 
@@ -77,7 +77,7 @@ Examples include:
 * Incident-response procedures
 * Security-awareness requirements
 
-### Risk (R)
+### 2️⃣ Risk (R)
 
 Risk management identifies events that could negatively affect information or systems and evaluates their likelihood and potential impact.
 
@@ -85,7 +85,7 @@ This project uses a simplified risk-rating approach based on this formula:
 
 **Risk = Likelihood × Impact**
 
-### Compliance (C)
+### 3️⃣ Compliance (C)
 
 Compliance involves meeting applicable legal, regulatory, contractual, and organizational requirements.
 
@@ -103,23 +103,23 @@ The assessment follows a simplified risk-management process:
 
 **Asset Identification**
 
-↓
+⬇️
 
 **Threat & Vulnerability Identification**
 
-↓
+⬇️
 
 **Risk Assessment**
 
-↓
+⬇️
 
 **Risk Treatment**
 
-↓
+⬇️
 
 **Security Control Mapping**
 
-↓
+⬇️
 
 **Evidence & Review**
 
