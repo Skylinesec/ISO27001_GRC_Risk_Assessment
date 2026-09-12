@@ -29,7 +29,7 @@ Risk acceptance should be based on the organization's defined risk appetite and 
 
 | Risk ID | Risk                                     | Treatment | Planned Controls / Actions                                                                            | Risk Owner         | Target Residual Risk |
 | ------- | ---------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------- | ------------------ | -------------------- |
-| R-01    | Privileged account compromise            | Mitigate  | Enforce MFA, least privilege, privileged access management, access reviews, administrative logging    | IT / Security      | Medium               |
+| R-01    | Privileged account compromise            | Mitigate  | Enforce MFA, least privilege, privileged access management, access reviews, administrative logging    | IT / Security      | High                 |
 | R-02    | Unauthorized customer database access    | Mitigate  | Role-based access control, least privilege, periodic access reviews, database monitoring              | Data Owner         | Medium               |
 | R-03    | Exploitation of vulnerable Azure systems | Mitigate  | Vulnerability scanning, patch management, secure configuration, vulnerability remediation tracking    | Cloud Operations   | Medium               |
 | R-04    | Employee account compromise              | Mitigate  | MFA, phishing awareness, conditional access, identity monitoring                                      | IT / Identity Team | Medium               |
