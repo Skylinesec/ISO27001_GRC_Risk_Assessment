@@ -1,6 +1,6 @@
 # 04 — Risk Treatment Plan
 
-## 1. Purpose
+## 1. Purpose 
 
 The purpose of the risk treatment plan is to define how FinSecure Cloud GmbH will respond to the information-security risks identified in the risk register.
 
