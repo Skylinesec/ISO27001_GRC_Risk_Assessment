@@ -20,6 +20,40 @@ The objective is not to perform a formal ISO 27001 audit or certification assess
 **✨how a junior security professional can identify information-security risks, assess their potential impact, select appropriate treatments, and map security measures to relevant controls.✨**
 
 ---
+  ## STRUCTURE
+
+
+                    ORGANIZATION
+                         │
+                         ▼
+                    ISMS SCOPE
+                         │
+                         ▼
+                   ASSET INVENTORY
+                         │
+          ┌──────────────┼──────────────┐
+          ▼              ▼              ▼
+       DATA           SYSTEMS        IDENTITIES
+          │              │              │
+          └──────────────┼──────────────┘
+                         ▼
+                       RISKS
+                         │
+                         ▼
+                   RISK ASSESSMENT
+                         │
+                         ▼
+                   RISK TREATMENT
+                         │
+                         ▼
+                  SECURITY CONTROLS
+                         │
+                         ▼
+               ISO 27001 CONTROL MAPPING
+                         │
+                         ▼
+                 EVIDENCE / REVIEW
+---
 
 ## Scenario
 
