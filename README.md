@@ -97,67 +97,182 @@ The objectives of this assessment are to:
 
 ---
 
-## GRC Concepts
+## Project Workflow
 
-### 1️⃣ Governance (G)
+The project follows a simplified risk-based GRC workflow:
 
-Governance establishes the policies, responsibilities, processes, and decision-making structures used to manage information security.
+```text
+Scope & Context
+       ↓
+Asset Inventory
+       ↓
+Risk Assessment
+       ↓
+Risk Treatment
+       ↓
+ISO/IEC 27001 Control Mapping
+       ↓
+Statement of Applicability
+       ↓
+Evidence
+```
 
-Examples include:
-
-* Security policies
-* Defined responsibilities
-* Access-control requirements
-* Incident-response procedures
-* Security-awareness requirements
-
-### 2️⃣ Risk (R)
-
-Risk management identifies events that could negatively affect information or systems and evaluates their likelihood and potential impact.
-
-This project uses a simplified risk-rating approach based on this formula:
-
-**Risk = Likelihood × Impact**
-
-### 3️⃣ Compliance (C)
-
-Compliance involves meeting applicable legal, regulatory, contractual, and organizational requirements.
-
-This project considers 3:
-
-* ISO/IEC 27001:2022
-* GDPR
-* BSI C5
+Each stage builds on the previous stage to demonstrate how information-security risks can be identified, treated, mapped to security controls, and supported by evidence.
 
 ---
 
-## Methodology
+## Key Project Outputs
 
-The assessment follows a simplified risk-management process:
+### 1. ISMS Scope & Context
 
-**Asset Identification**
+Defined the boundaries of the simulated Information Security Management System (ISMS), including:
 
-⬇️
+* Organizational context
+* Interested parties
+* Information-security objectives
+* Cloud environment
+* Scope boundaries
+* Security assumptions
 
-**Threat & Vulnerability Identification**
+### 2. Asset Inventory
 
-⬇️
+Identified critical information, systems, identities, and supporting services.
 
-**Risk Assessment**
+Assets were evaluated against:
 
-⬇️
+* Confidentiality
+* Integrity
+* Availability
+* Business importance
+* Ownership
 
-**Risk Treatment**
+### 3. Risk Register
 
-⬇️
+Created a simplified 5×5 risk assessment methodology using:
 
-**Security Control Mapping**
+**Risk = Likelihood × Impact**
 
-⬇️
+Eight example risks were identified and prioritized, including:
 
-**Evidence & Review**
+* Privileged account compromise
+* Unauthorized customer-data access
+* Vulnerable cloud systems
+* Employee account compromise
+* Log manipulation
+* Ransomware-related backup destruction
+* Application outage
+* Source-code repository compromise
 
-This mirrors the basic reasoning used in real-world information-security risk management.
+### 4. Risk Treatment Plan
+
+Developed treatment strategies for identified risks using:
+
+* Mitigation
+* Avoidance
+* Transfer
+* Acceptance
+
+Controls and actions were assigned to appropriate risk owners, with consideration given to residual risk.
+
+### 5. ISO/IEC 27001:2022 Control Mapping
+
+Mapped identified risks and treatment measures to relevant ISO/IEC 27001:2022 Annex A controls.
+
+Example:
+
+```text
+Privileged Account Compromise
+          ↓
+MFA + Least Privilege + PAM
+          ↓
+A.5.15 / A.5.16 / A.5.17 / A.5.18
+          ↓
+Access Reviews + MFA Reports + Logs
+```
+
+### 6. Statement of Applicability
+
+Created a simplified Statement of Applicability identifying:
+
+* Applicable controls
+* Implementation status
+* Risk addressed
+* Justification
+* Potential supporting evidence
+
+### 7. Security Evidence
+
+Identified examples of evidence that could demonstrate that security controls are implemented and operating.
+
+Examples include:
+
+* Access reviews
+* MFA reports
+* Vulnerability-management reports
+* SIEM configuration
+* Security logs
+* Backup and recovery tests
+* Security-awareness records
+* Incident records
+* Repository access controls
+
+---
+
+## Skills Demonstrated
+
+This project demonstrates practical familiarity with:
+
+* Governance, Risk & Compliance (GRC)
+* ISO/IEC 27001:2022 concepts
+* Information Security Management Systems (ISMS)
+* Risk identification and assessment
+* Likelihood and impact analysis
+* Risk treatment and residual risk
+* Security-control selection
+* ISO 27001 Annex A control mapping
+* Statement of Applicability (SoA)
+* Security evidence and audit readiness
+* Access control and identity management
+* Cloud security considerations
+* Security logging and monitoring
+* Vulnerability management
+* Business continuity and recovery
+* Security awareness
+
+---
+
+## Security Operations Connection
+
+Although this project focuses on GRC, many of the controls have direct relevance to security operations.
+
+For example:
+
+**SOC activity:**
+
+A SIEM detects suspicious administrator authentication activity.
+
+**GRC perspective:**
+
+The organization should be able to demonstrate that:
+
+* Privileged accounts are identified
+* Strong authentication is required
+* Access is restricted
+* Administrator activity is logged
+* Security events are monitored
+* Access rights are periodically reviewed
+
+This demonstrates the relationship between technical security operations and governance/compliance processes.
+
+---
+
+## Project Outcome
+
+The completed project demonstrates a simplified end-to-end approach to information-security risk management:
+
+**Identify → Assess → Treat → Control → Evidence → Review**
+
+The objective is not to simulate an ISO certification audit, but to demonstrate practical understanding of how GRC activities support an organization's broader information-security program.
 
 ---
 
